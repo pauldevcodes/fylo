@@ -7,27 +7,29 @@ const Header = () => {
             <img src={logo} alt="logo" className=' w-20 h-6 xl:w-[166px] xl:h-[49px]' />
             <nav>
                 <ul className=' flex flex-row items-center gap-x-6 xl:gap-x-[58px]'>
-                    <Link
-                        to="features"
-                    >
-                        <li className=' font-["Raleway"] text-xs leading-[14px] text-primaryOne xl:text-base xl:leading-[19px]'>
+                    <li className=' font-["Raleway"] text-xs leading-[14px] text-primaryOne xl:text-base xl:leading-[19px]'>
+                        <Link
+                            to="features"
+                        >
                             Features
-                        </li>
-                    </Link>
-                    <Link
-                        to="team"
-                    >
-                        <li className=' font-["Raleway"] text-xs leading-[14px] text-primaryOne xl:text-base xl:leading-[19px]'>
+                        </Link>
+                    </li>
+
+                    <li className=' font-["Raleway"] text-xs leading-[14px] text-primaryOne xl:text-base xl:leading-[19px]'>
+                        <Link
+                            to="team"
+                        >
                             Team
-                        </li>
-                    </Link>
-                    <Link
-                        to="register"
-                    >
-                        <li className=' font-["Raleway"] text-xs leading-[14px] text-primaryOne xl:text-base xl:leading-[19px]'>
+                        </Link>
+                    </li>
+
+                    <li className=' font-["Raleway"] text-xs leading-[14px] text-primaryOne xl:text-base xl:leading-[19px]'>
+                        <Link
+                            to="register"
+                        >
                             Sign In
-                        </li>
-                    </Link>
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </header>
